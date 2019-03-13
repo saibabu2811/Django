@@ -9,7 +9,17 @@ sudo apt-get install python3
 sudo apt-get install python3-pip
 ### Install Virtualenv 
 sudo apt-get install virtualenv
-### Create virtual environment
-virtualenv env
+### Create virtual environment using python3
+virtualenv -p python3 {env}
 ### Activate Virtualenv
 source {env}/bin/activate
+### Install Django using pip
+pip install Django
+## Create Django Project
+django-admin startproject mysite
+### run migrations
+python manag.py migrate
+### run server
+python manage.py runserver
+
+
