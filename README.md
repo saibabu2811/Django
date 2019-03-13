@@ -17,9 +17,9 @@ source {env}/bin/activate
 pip install Django
 ## Create Django Project
 django-admin startproject mysite
-### run migrations
+### Run migrations
 python manag.py migrate
-### run server
+### Run server
 python manage.py runserver
 
 
