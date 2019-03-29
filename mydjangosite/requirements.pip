@@ -2,6 +2,7 @@ Django
 pika
 celery
 psycopg2
+psycopg2-binary
 
 
 
