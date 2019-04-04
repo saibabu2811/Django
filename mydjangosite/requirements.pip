@@ -3,6 +3,7 @@ pika
 celery
 psycopg2
 psycopg2-binary
+elasticsearch-dsl
 
 
 
